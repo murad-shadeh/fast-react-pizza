@@ -106,7 +106,7 @@ export async function action({ request }) {
   if (Object.keys(errors).length > 0) return errors;
   // if everything is okay, create new order and redirect
   const newOrder = await createOrder(order);
-  // not allowed to use hooks here in the action functio
+  // not allowed to use hooks here in the action function
   return redirect(`/order/${newOrder.id}`);
 }
 export default CreateOrder;
