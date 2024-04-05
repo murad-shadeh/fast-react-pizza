@@ -1,5 +1,3 @@
 // eslint-disable-next-line no-undef
-module.exports = {
-  tailwindConfig: "./styles/tailwind.config.js",
-  singleQuote: true,
-};
+export const tailwindConfig = "./styles/tailwind.config.js";
+export const singleQuote = true;
