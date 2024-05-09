@@ -5,6 +5,7 @@ import { formatCurrency } from "../../utils/helpers";
 import { addItem } from "../cart/cartSlice";
 
 function MenuItem({ pizza }) {
+  // to dipatch certain action through redux
   const dispatch = useDispatch();
   // eslint-disable-next-line no-unused-vars
   const { id, name, unitPrice, ingredients, soldOut, imageUrl } = pizza;
