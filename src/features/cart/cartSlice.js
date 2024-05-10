@@ -42,7 +42,9 @@ export const {
   clearCart,
 } = cartSlice.actions;
 export default cartSlice.reducer;
-// reducx selector function
+// the cart selector function
+export const getCart = (state) => state.cart.cart;
+// reducx selector functions for cartSlice
 export const getTotalCartQuantity = (state) =>
   // the item is the accumulator here
   state.cart.cart.reduce((sum, item) => sum + item.quantity, 0);
