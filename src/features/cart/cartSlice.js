@@ -51,3 +51,6 @@ export const getTotalCartQuantity = (state) =>
 export const getTotalCartPrice = (state) =>
   // the item is the accumulator here
   state.cart.cart.reduce((sum, item) => sum + item.totalPrice, 0);
+// get indivisual quantity
+export const getCurrentQuantityById = (id) => (state) =>
+  state.cart.cart.find((item) => item.pizzaId === id)?.quantity ?? 0;
