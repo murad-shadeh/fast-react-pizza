@@ -1,6 +1,6 @@
 # Fast React Pizza App
 
-##### A web app that allow users to order pizza while they are at their comfort zone with fast delivery to feel the taste of your day.
+##### A web app that allow users to order pizza while they are at their comfort zone with priority delivery options to feel the taste of your day.
 
 ---
 
